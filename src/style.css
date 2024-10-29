@@ -1,0 +1,66 @@
+main {
+  background-color: black;
+  width: 330px;
+  height: 390px;
+  padding: 5px;
+}
+
+#display-calculations,
+#display {
+  margin: 0;
+  margin-right: 5px;
+  color: white;
+  text-align: end;
+  font-size: 20px;
+  height: 30px;
+}
+
+#display-calculations {
+  color: orange;
+}
+
+#clear {
+  width: 160px;
+  height: 65px;
+}
+
+#add,
+#subtract,
+#multiply,
+#divide,
+#decimal,
+#one,
+#two,
+#three,
+#four,
+#five,
+#six,
+#seven,
+#eight,
+#nine {
+    height: 65px;
+    width: 80px;
+}
+
+#equals {
+    width: 80px;
+    height: 130px;
+}
+
+#zero {
+    width: 160px;
+    height: 65px;
+}
+
+.equals {
+    width: fit-content;
+    transform: translate(240px, -130px);
+    -webkit-transform: translate(240px, -130px);
+    -moz-transform: translate(240px, -130px);
+    -ms-transform: translate(240px, -130px);
+    -o-transform: translate(240px, -130px);
+}
+
+button {
+    font-size: 25px;
+}
